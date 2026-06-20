@@ -1,3 +1,3 @@
 function showMessage() {
-    alert("Xin chào từ External JavaScript!");
+    alert("Xin chào! Bạn vừa bấm nút.");
 }
