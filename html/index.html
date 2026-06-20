@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyJS Website</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>MyJS Website</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Chào mừng đến với MyJS</h2>
+        <p>Đây là website thực hành HTML, CSS và JavaScript.</p>
+    </section>
+
+    <section id="about">
+        <h2>Giới thiệu</h2>
+
+        <button id="toggleBtn">
+            Ẩn/Hiện nội dung
+        </button>
+
+        <div id="content">
+            <p>
+                JavaScript giúp tạo các chức năng tương tác trên website.
+            </p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Liên hệ</h2>
+
+        <form id="contactForm">
+
+            <label>Họ tên:</label>
+            <input type="text" id="name">
+
+            <label>Email:</label>
+            <input type="email" id="email">
+
+            <button type="submit">
+                Gửi
+            </button>
+
+        </form>
+
+        <p id="message"></p>
+    </section>
+
+    <script src="../js/script.js"></script>
+
+</body>
+</html>
